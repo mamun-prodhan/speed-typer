@@ -43,36 +43,42 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              Accordion Item #2
+              <strong>What are the Difference between Global Scope and Block Scope ?</strong>
             </button>
           </h2>
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo" style="">
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <strong>Global Scope: </strong>A variable with global scope can be accessed from within any part of the JavaScript code. Global variables can be accessed from anywhere in a JavaScript program. All scripts and functions on a web page can access it. Global scope is the entire Javascript execution environment. Any variables assigned without an explicit scope (using the var, let, or const keywords) automatically become global variables. The same is true for functions.In the global scope, any variable can overwrite any other variable at any time. This is why creating global variables and global functions in Javascript is potentially dangerous. <br><br>
+              <strong>Block Scope: </strong>Variables declared inside a { } block cannot be accessed from outside the block. The block scope restricts a variables access to the block in which it is declared. The var keyword assigns a function scope to the variable. Variables declared using the var keyword do not have a block scope.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              Accordion Item #3
+                <strong>Explain the JavaScript Event Loop ?</strong>
             </button>
           </h2>
           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree" style="">
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                The <strong>Event Loop</strong> is a mechanism that allows JavaScript to perform non-blocking operations. When an asynchronous task is started, the event loop will start running. Once the task is completed, the event loop will again check for any other tasks that need to be performed. An event loop is a programming construct that allows a program to handle multiple events or tasks simultaneously. It works by having the program keep track of all the events or tasks that need to be processed, and then processing them one by one as they come in. This can be a very efficient way to handle a lot of events or tasks, as it prevents the program from getting bogged down by having to process everything at once.
             </div>
           </div>
         </div>
         <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-            Accordion Item #4
+            <strong>How many ways can we get undefined?</strong>
           </button>
         </h2>
         <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour" style="">
           <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <strong>8 Ways to get Undefined: </strong>
+            <ul>
+                <li>Variable that is not initialized will give undefined.</li>
+                <li>Function with no return.</li>
+                <li>Data is not available for future sessions.</li>
+              </ul>
           </div>
         </div>
       </div>
